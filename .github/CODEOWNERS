@@ -1,0 +1,25 @@
+# Code owners for wl_screencopy.
+#
+# This project is 100% AI-generated and has not had a human correctness or
+# security review (see the warning at the top of README.md). This file exists
+# so that review requests land with a human maintainer, and so that any future
+# contributor knows who is expected to say "yes" to a change.
+#
+# NOTE: branch protection is not currently enabled on this repository, so
+# CODEOWNERS is a routing and convention file only - it does not by itself
+# block unreviewed merges. Enforce it via
+# Settings -> Branches -> Branch protection rules ("Require review from Code
+# Owners") if that guarantee is needed.
+
+# Everything, by default.
+*                 @tjandrasg
+
+# C core and the ABI boundary between C and ctypes - the parts most worth a
+# second pair of eyes: shared-memory lifetime, channel conversion, fd handling.
+src/**            @tjandrasg
+include/**        @tjandrasg
+python/wl_screencopy/_lib.py @tjandrasg
+
+# Protocol definitions are upstream copies; changes here mean a protocol
+# version bump and must be justified (see proto/PROVENANCE.md).
+proto/**          @tjandrasg
