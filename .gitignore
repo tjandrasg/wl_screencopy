@@ -1,0 +1,29 @@
+# Build artifacts
+build/
+python/wl_screencopy/_native/
+*.so
+*.so.*
+*.o
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+
+# Locally provided test compositor (see tests/README.md) and unpacked debs
+.testbin/
+.probe_debs/
+.local/
+
+# Local-only agent/handover notes (not part of the published project)
+AGENTS.md
+notes_to_user.txt
+
+# Captures produced by the CLI / examples
+*.png
+*.jpg
+*.mp4
+*.mkv
+*.npy
+*.ppm
+!docs/**/*.png
