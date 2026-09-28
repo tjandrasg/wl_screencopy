@@ -36,7 +36,9 @@ test = ["pytest>=7"]
 wl-screencopy = "wl_screencopy.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/"
+Homepage = "https://github.com/tjandrasg/wl_screencopy"
+Repository = "https://github.com/tjandrasg/wl_screencopy"
+Issues = "https://github.com/tjandrasg/wl_screencopy/issues"
 
 [tool.setuptools]
 package-dir = { "" = "python" }

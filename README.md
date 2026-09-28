@@ -273,6 +273,14 @@ examples/                  quickstart, recording, motion detection, multi-monito
   stack, `--out-dir` for PNG samples).
 * Encoded video timing assumes frames arrive at the target `fps`.
 
+## Contributing and security
+
+[CONTRIBUTING.md](CONTRIBUTING.md) covers building, the two-layer test suite and
+what the maintainer most needs help with (mostly: test reports from compositors
+nobody has tried). Found a security problem, or want to know exactly what this
+library can see and write? [SECURITY.md](SECURITY.md) has the threat model and
+how to report privately.
+
 ## License
 
 MIT. Vendored protocol XMLs keep their upstream MIT copyright headers; see
