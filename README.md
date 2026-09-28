@@ -1,5 +1,26 @@
 # wl_screencopy
 
+> [!WARNING]
+> **This is a 100% AI-generated repository.** Every file in it - the C core,
+> the Python/ctypes bindings, the build files, the tests, the examples, the
+> comments and this README - was written by an AI coding agent. No human
+> wrote or reviewed it line by line.
+>
+> * The claims below are backed by automated tests that pass, but the code
+>   has **not** had a human correctness or security review.
+> * Treat it as unvetted code: read it before you build it, and do not depend
+>   on it for anything you cannot afford to break.
+> * Screen capture reads whatever is currently on your monitors, and this
+>   project maps compositor shared-memory buffers directly into your process.
+>   A bug here could leak pixels, stall or crash a Wayland session, or hang
+>   on a compositor it mis-handles. Nothing here is affiliated with, audited
+>   or endorsed by the Wayland, wlroots or KDE projects.
+> * It was developed and tested against a single nested wlroots compositor.
+>   Behaviour on your compositor is unverified unless someone reports it.
+>
+> Use at your own risk, as per the license. Human review, bug reports and
+> pull requests are very welcome.
+
 Wayland screen capture and recording over the **`wlr-screencopy-unstable-v1`**
 protocol, exposed to Python as **NumPy RGB arrays**.
 
