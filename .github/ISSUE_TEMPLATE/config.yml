@@ -1,0 +1,16 @@
+# Issue chooser for this repository.
+#
+# The two templates in this directory are what the maintainer can act on:
+# bug reports need a compositor/distro/GPU environment (see bug_report.md),
+# feature requests need a protocol and compositor scope. Free-form issues are
+# still allowed, they just usually turn into a question about your compositor.
+
+blank_issues_enabled: true
+
+contact_links:
+  - name: Security report - read SECURITY.md first
+    url: https://github.com/tjandrasg/wl_screencopy/blob/main/SECURITY.md
+    about: >-
+      Do not post vulnerability details in an issue; issues here are public.
+      Use private vulnerability reporting, or open an issue titled exactly
+      "Security contact request" with an empty body.
