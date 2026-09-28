@@ -1,5 +1,7 @@
 # wl_screencopy
 
+![100% AI-generated](https://img.shields.io/badge/code-100%25_AI--generated-orange)
+
 > [!WARNING]
 > **This is a 100% AI-generated repository.** Every file in it - the C core,
 > the Python/ctypes bindings, the build files, the tests, the examples, the
